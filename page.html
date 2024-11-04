@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation Tools</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="coSinefinder">
+            <h3>Cosine Calculation</h3>
+            <input type="number" id="aInput" placeholder="Side A">
+            <input type="number" id="bInput" placeholder="Side B">
+            <input type="number" id="cInput" placeholder="Angle (°)">
+            <button id="coSine">Calculate</button>
+            <input type="number" readonly id="result" placeholder="Result">
+        </div>
+
+        <div class="Asymptotefinder">
+            <h3>Asymptote Finder</h3>
+            <input type="number" id="aInput1" placeholder="Numerator Degree (m)">
+            <input type="number" id="bInput1" placeholder="Denominator Degree (n)">
+            <button id="Asymptote">Calculate</button>
+            <input readonly id="result1" placeholder="Result">
+        </div>
+
+        <div class="piApproximationfinder">
+            <h3>Pi Approximation</h3>
+            <input type="number" id="aInput2" placeholder="Number of Iterations">
+            <button id="piApproximation">Calculate</button>
+            <input readonly id="result2" placeholder="Approximation Result">
+        </div>
+    </div>
+    <script src="math1.js"></script>
+</body>
+</html>
